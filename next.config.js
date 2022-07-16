@@ -2,6 +2,14 @@
 var path = require("path");
 const nextConfig = {
   reactStrictMode: true,
+  
+  images :{
+    loader: "akamai",
+    path: "",
+  },
+  basePath: "",
+  assetPrefix: "",
+  
   swcMinify: true,
   output: { path: path.resolve(__dirname, 'static'), },
   webpack: (config, options) => {
