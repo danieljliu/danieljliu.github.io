@@ -9,7 +9,7 @@ export default function About() {
                 and a
                 <span className={"text-blue-400 dark:text-green-500"}> minor in Computer Science</span>.
                 I&apos;m tryna jump ship from biotech so I&apos;m currently pursuing a
-                <span className={"text-blue-400 dark:text-green-500"}> M.S. in Data Science</span>
+                <span className={"text-blue-400 dark:text-green-500"}> M.S. in Data Science </span>
                 at Rutgers University so someone will hire me. Pls hire me.
             </div>
         </div>
