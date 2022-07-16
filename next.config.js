@@ -7,8 +7,7 @@ const nextConfig = {
     loader: "akamai",
     path: "",
   },
-  basePath: "",
-  assetPrefix: "",
+
   
   swcMinify: true,
   output: { path: path.resolve(__dirname, 'static'), },
