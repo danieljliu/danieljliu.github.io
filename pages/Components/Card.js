@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Card({image, title, text, code_link}) {
+export default function Card({image, title, text, code_link, view_code}) {
     return (
         <div className="flex justify-center">
             <div className="flex flex-col md:flex-row md:max-w-xl  rounded-lg bg-gray-100 dark:bg-gray-400 shadow-lg">
@@ -14,7 +14,7 @@ export default function Card({image, title, text, code_link}) {
                         {text}
                     </p>
                     <p className={"h-16"}></p>
-                    <a className={"hover:text-blue-400 hover:dark:text-green-300 text-right"} href = {code_link} target=  '_blank' rel="noreferrer">View Code</a>
+                    <a className={"hover:text-blue-400 hover:dark:text-green-300 text-right"} href = {code_link} target=  '_blank' rel="noreferrer">{view_code}</a>
                 </div>
 
             </div>
